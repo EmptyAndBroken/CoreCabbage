@@ -1,8 +1,12 @@
 #include <stdio.h>
 
-int main() {
-    FILE * pFile = fopen("words.txt", "a");
+int main(int argc, char ** argv) {
+
+    FILE * pFile = fopen("src\\outcome.txt", "a");
+
     char character;
+
+    puts("STARTED WRITING");
     while ((character = getchar()) != EOF) {
         if (character != EOF) {
             putc(character, pFile);
