@@ -1,14 +1,17 @@
 #include <stdio.h>
 
-int main(int argc, char ** argv) {
+int main(int argc, char **argv)
+{
 
-    FILE * pFile = fopen("src\\outcome.txt", "a");
+    FILE *pFile = fopen("src\\io\\outcome.txt", "a");
 
     char character;
 
     puts("STARTED WRITING");
-    while ((character = getchar()) != EOF) {
-        if (character != EOF) {
+    while ((character = getchar()) != EOF)
+    {
+        if (character != EOF)
+        {
             putc(character, pFile);
             fflush(pFile);
         }

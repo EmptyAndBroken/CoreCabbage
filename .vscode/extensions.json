@@ -3,6 +3,9 @@
         "nikomedes.vs-tcc",
         "teabyii.ayu",
         "equinusocio.vsc-material-theme",
-        "pkief.material-icon-theme"
+        "pkief.material-icon-theme",
+        "esbenp.prettier-vscode",
+        "milanjadav.cnippets",
+        "ms-vscode.cpptools"
     ]
 }

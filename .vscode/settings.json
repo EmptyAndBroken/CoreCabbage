@@ -6,8 +6,12 @@
     "workbench.iconTheme" : "material-icon-theme",
     "editor.minimap.enabled": true,
     "editor.dragAndDrop": true,
-    "window.zoomLevel" : 2,
+    "window.zoomLevel" : 1,
     "workbench.colorCustomizations" : {
         "editorLineNumber.foreground": "#98a347"
-    }
+    },
+    "files.associations": {
+        "stdio.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
 }
